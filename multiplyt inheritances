@@ -1,0 +1,15 @@
+class Father:
+    def show_Father(self):
+        print("Father care")
+class Mother:
+    def show_Mother(self):
+        print("Mother love")    
+class Child(Father,Mother):
+    def show_child(self):
+        print("Child happy")
+        
+c = Child()
+c.show_Father()
+c.show_Mother()
+c.show_child()
+      
