@@ -2,8 +2,4 @@
     # print("Reversed :","str(num)[::-1]")
 # s = "shwetha"
 # print(s[::-1])
-# factorial 
-# def factorial(n):
-#     return 1 if n == 0 else n * factorial (n-1)
-# num= int (input("enter a number"))
-# print("factorial ",factorial (num))
+
