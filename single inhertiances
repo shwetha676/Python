@@ -1,0 +1,11 @@
+class human:
+     def speak (self):
+         print("human speak")
+class Dog (human):  
+        def speak(self):
+            print("Dog braks")
+a = human()
+a.speak()
+
+d = Dog()
+d.speak()
