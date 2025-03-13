@@ -1,0 +1,6 @@
+list1 = list (map(int ,input ("enter list 1").split()))
+print("sorted list ", sorted(list1))
+list2 = list (map(int ,input ("enter list 2").split()))
+print("sorted list ", sorted(list2))
+merged_list = list1 + list2
+print(merged_list)
