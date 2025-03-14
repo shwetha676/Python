@@ -1,0 +1,10 @@
+class Person():
+    phone_number = '111-222-333'
+    __country = 'India'
+    def __init__(self,age,__name):
+        self.age = age
+        self.__name = __name
+    def general_info(self):
+        return 'My number is'+self.phone_number+ 'and my age is'+self.age
+    def __residence(self):
+        return 'My name is'+self.__name+'and I am from'+ self.__country
