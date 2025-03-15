@@ -1,0 +1,17 @@
+class Mathoperation:
+    @staticmethod
+    def add(a,b):
+         return a + b
+         print(Mathoperation,add(1,5))         
+   
+class person:
+    count = 0
+    def __init__(self,name):
+        self.name = name
+        person.count += 1
+    @classmethod   
+    def total_obj(cls):
+        return cls.count
+p1 = person("shwetha")
+p2 = person("sahana")
+print(person.total_obj())
